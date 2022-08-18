@@ -130,7 +130,7 @@ while run:
         dio.left = True
         dio.right = False
         dio.standing = False
-    elif keys[pygame.K_RIGHT] and dio.x < 1600 - dio.width - dio.vel:
+    elif keys[pygame.K_RIGHT] and dio.x < 1080 - dio.width - dio.vel:
         dio.x += dio.vel
         dio.right = True
         dio.left = False 
